@@ -1,0 +1,40 @@
+title = 'Jentz'
+theme = "hugo-coder"
+
+baseURL = "https://example.org/"
+languageCode = "en-us"
+defaultcontentlanguage = "en"
+
+[params]
+  author = "Mark Jentz"
+  gravatar = "mark.jentz@gmail.com"
+  description = "Mark Jentz's personal site and blog."
+  keywords = "blog,developer,software,iam,aws,cloud,go,java,oidc,oauth2"
+  info = "Software engineer."
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/jentz/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/markjentz/"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-rss-square fa-2x"
+weight = 3
+url = "/posts/index.xml"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
