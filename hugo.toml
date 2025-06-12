@@ -1,7 +1,7 @@
 title = 'Jentz'
 theme = "hugo-coder"
 
-baseURL = "https://example.org/"
+baseURL = "https://jentz.co/"
 languageCode = "en-us"
 defaultcontentlanguage = "en"
 
