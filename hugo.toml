@@ -33,6 +33,10 @@ icon = "fa fa-rss-square fa-2x"
 weight = 3
 url = "/posts/index.xml"
 
+[params.umami]
+siteID = "89027d54-0506-4dfb-9a23-34493333cdea"
+scriptURL = "https://cloud.umami.is/script.js"
+
 # Menu links
 [[menu.main]]
   name = "Blog"
