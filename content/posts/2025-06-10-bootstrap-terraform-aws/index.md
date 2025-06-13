@@ -6,8 +6,9 @@ description = ""
 slug = ""
 authors = []
 tags = ["terraform", "aws"]
-categories = []
+categories = ["devops"]
 externalLink = ""
+featuredImage = "bootstrap-aws.jpg"
 series = []
 +++
 
