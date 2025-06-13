@@ -8,6 +8,7 @@ authors = []
 tags = ["terraform", "aws", "hugo"]
 categories = ["devops"]
 externalLink = ""
+images = ["amplify-hugo-web-site.png"]
 featuredImage = "amplify-hugo-web-site.png"
 series = []
 +++

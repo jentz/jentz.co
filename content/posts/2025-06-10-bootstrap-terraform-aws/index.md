@@ -9,6 +9,7 @@ tags = ["terraform", "aws"]
 categories = ["devops"]
 externalLink = ""
 featuredImage = "bootstrap-aws.jpg"
+images = ["bootstrap-aws.jpg"]
 series = []
 +++
 
