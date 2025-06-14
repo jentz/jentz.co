@@ -2,16 +2,17 @@
 draft = false
 date = 2025-06-13T15:07:16+02:00
 title = "Deploying a Static Website with AWS Amplify"
-description = ""
+description = "A practical guide to deploying a static website using AWS Amplify, Hugo, and Terraform. Learn how to leverage Amplify's managed CI/CD, global CDN, and custom domain support for fast, secure, and automated site deployments. Includes code samples and cost estimates."
 slug = ""
 authors = []
 tags = ["terraform", "aws", "hugo"]
 categories = ["devops"]
 externalLink = ""
-images = ["amplify-hugo-web-site.png"]
-featuredImage = "amplify-hugo-web-site.png"
+images = ["cover.png", "amplify-end.png", "amplify-estimate.png", "amplify-deploy.png"]
 series = []
 +++
+
+![cover.png](cover.png)
 
 # Deploying a Static Website with AWS Amplify
 

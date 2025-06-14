@@ -2,16 +2,17 @@
 draft = false
 date = 2025-06-10T15:07:16+02:00
 title = "Bootstrapping an AWS Account to Manage Terraform Remote State"
-description = ""
+description = "Learn how to securely set up an AWS S3 bucket and DynamoDB table for managing Terraform remote state from scratch. This guide walks you through the chicken-and-egg problem of bootstrapping new AWS accounts, using Terraform with a local backend, and migrating to remote state management. Includes step-by-step instructions, code samples, and best practices for DevOps automation."
 slug = ""
 authors = []
 tags = ["terraform", "aws"]
 categories = ["devops"]
 externalLink = ""
-featuredImage = "bootstrap-aws.jpg"
-images = ["bootstrap-aws.jpg"]
+images = ["cover.jpg", "demo-1.gif", "demo-2.gif"]
 series = []
 +++
+
+![cover.png](cover.png)
 
 # Bootstrapping an AWS account to manage Terraform remote state
 
