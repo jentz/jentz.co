@@ -2,7 +2,7 @@
 
 [![Hugo](https://img.shields.io/badge/built%20with-hugo-ff4088?logo=hugo)](https://gohugo.io/)
 [![AWS Amplify](https://img.shields.io/badge/deployed%20on-aws%20amplify-ff9900?logo=amazon-aws)](https://aws.amazon.com/amplify/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 Welcome to **jentz.co** — my personal website and blog
 
