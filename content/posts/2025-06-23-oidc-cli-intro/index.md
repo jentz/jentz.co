@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2025-06-23T15:08:11+02:00
 title = "Introduction to oidc-cli"
 description = "An introduction to oidc-cli, a tool for managing OIDC tokens and authentication workflows. Learn how to simplify your OIDC interactions with this CLI tool."
