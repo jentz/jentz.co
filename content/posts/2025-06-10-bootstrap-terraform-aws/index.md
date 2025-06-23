@@ -12,7 +12,7 @@ images = ["cover.jpg", "demo-1.gif", "demo-2.gif"]
 series = []
 +++
 
-![cover.png](cover.png)
+![cover.png](cover.jpg)
 
 # Bootstrapping an AWS account to manage Terraform remote state
 
