@@ -45,7 +45,7 @@ authorization request: https://eu-west-1r7zfnvwv0.auth.eu-west-1.amazoncognito.c
 }
 ```
 
-  * The end-user runs `oidc-cli authorization_code`
+  * The end-user runs `oidc-cli authorization_code`.
   * `oidc-cli` parses the options and creates an authorization_code request.
   * `oidc-cli` starts a listener on the redirect URI to receive the auth code.
   * `oidc-cli` tries to open the default browser for the platform to start the flow.
@@ -53,7 +53,7 @@ authorization request: https://eu-west-1r7zfnvwv0.auth.eu-west-1.amazoncognito.c
   * The authorization server authenticates the user.
   * The authentication redirects the browser to the redirect URI.
   * `oidc-cli` receives the auth code and exchanges it for tokens at the token endpoint.
-  * `oidc-cli` pretty prints the token endpoint response body
+  * `oidc-cli` prints the token endpoint response body.
 
 {{<mermaid>}}
 sequenceDiagram
@@ -75,7 +75,7 @@ sequenceDiagram
     RP->>U: Print token response
 {{</mermaid>}}
 
-The token response is output to stdout, while other information is printed on stderr. This allows `oidc-cli` invocations to be chained together with other CLI tools like [jq](https://jqlang.org/), [jwt-cli](https://github.com/mike-engel/jwt-cli), and `pbcopy`.
+The token response is output to stdout, while other information is printed on stderr. This allows `oidc-cli` invocations to be chained with commands like [jq](https://jqlang.org/), [jwt-cli](https://github.com/mike-engel/jwt-cli), and `pbcopy`.
 
 The basic form of the command is:
 
@@ -98,7 +98,7 @@ oidc-cli -verbose authorization_code \
   * **-client-id** is the client ID for the request
   * **-pkce** will cause the request to be protected by proof-key for code exchange (PKCE)
 
-Now will will look at the authorization request more closely and break it down.
+We will look at the authorization request more closely and break it down.
 
 ```
 https://eu-west-1r7zfnvwv0.auth.eu-west-1.amazoncognito.com/oauth2/authorize?
@@ -117,7 +117,7 @@ code_challenge=hL-F4FY4et9NJu7qHnnXyVJS6JdVF05pjosBL6IwKmA
 code_challenge_method=S256
 ```
 
-These parameters are part of the PKCE challenege, they are part of protecting the interaction.
+These parameters are part of the PKCE challenge, they are part of protecting the interaction.
 
 ```
 redirect_uri=http%3A%2F%2Flocalhost%3A9555%2Fcallback
@@ -139,7 +139,7 @@ The scope is `oidc`, which is the default for `oidc-cli`. You can add more scope
 
 # Conclusion
 
-`oidc-cli` is a powerful and intuitive tool for streamlining OIDC and OAuth2 authentication workflows directly from the command line. By simplifying complex authorization processes, like the authorization code flow with PKCE, it empowers developers, DevOps, and IAM professionals to efficiently manage tokens and integrate authentication into their workflows. Its seamless compatibility with tools like `jq`, `jwt-cli`, and `pbcopy` makes it a versatile addition to any CLI-driven process. Whether you're working with public clients, setting up secure authentication, or automating token retrieval, oidc-cli offers a reliable and user-friendly solution. Explore the GitHub repository to get started and enhance your OIDC interactions with ease.
+`oidc-cli` is a powerful and intuitive tool for streamlining OIDC and OAuth2 authentication workflows directly from the command line. Simplifying complex authorization processes, like the authorization code flow with PKCE, empowers developers, DevOps, and IAM professionals to manage tokens and integrate authentication into their workflows efficiently. Its adherence to the UNIX philosophy of small modular commands with clear input and output streams makes it play nicely with tools like `jq`, `jwt-cli`, and `pbcopy`. Explore the GitHub repository to get started and enhance your OIDC interactions with ease.
 
 # References
 
